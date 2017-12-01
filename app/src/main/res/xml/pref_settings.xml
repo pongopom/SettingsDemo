@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<!--TODO:21. Add a checkBox a EditText and a ListPreference to pref_settings xml (DONE)-->
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="showTextKey"
+        android:summaryOff="Hide"
+        android:summaryOn="Show"
+        android:title="SHow/Hide text" />
+
+    <EditTextPreference
+        android:defaultValue="Hello World!"
+        android:key="changeTextKey"
+        android:title="Edit text" />
+
+    <ListPreference
+        android:defaultValue="RED"
+        android:entries="@array/pref_color_option_labels"
+        android:entryValues="@array/pref_color_option_values"
+        android:key="colourKey"
+        android:title="Text Colour" />
+
+
+</PreferenceScreen>

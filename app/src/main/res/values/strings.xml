@@ -1,3 +1,8 @@
 <resources>
+
+
     <string name="app_name">SettingsDemo</string>
+
+    <!--TODO:5.Add string resource for the menu name (DONE)-->
+    <string name="app_settings">Settings</string>
 </resources>
